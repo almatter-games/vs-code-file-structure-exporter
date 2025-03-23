@@ -1,7 +1,10 @@
 # File Structure Exporter
 
-![Marketplace](https://vsmarketplacebadge.apphb.com/version/almatter-games.file-structure-exporter.svg)
-![Installs](https://vsmarketplacebadge.apphb.com/installs/almatter-games.file-structure-exporter.svg)
+<img alt="Visual Studio Marketplace Installs" src="https://img.shields.io/visual-studio-marketplace/i/almatter.file-structure-exporter">
+<img alt="Visual Studio Marketplace Version" src="https://img.shields.io/visual-studio-marketplace/v/almatter.file-structure-exporter">
+<img alt="Visual Studio Marketplace Rating" src="https://img.shields.io/visual-studio-marketplace/stars/almatter.file-structure-exporter">
+<img alt="GitHub License" src="https://img.shields.io/github/license/almatter-games/vs-code-file-structure-exporter">
+<img alt="Install from VS Code Marketplace" src="https://img.shields.io/badge/VSCODE-Install-blue?logo=visualstudiocode&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=almatter.file-structure-exporter)">
 
 A Visual Studio Code extension that exports your project’s file and folder structure to a `.txt` file. Useful for documentation, prompts for AI assistants, and general organization.
 
@@ -22,8 +25,8 @@ A Visual Studio Code extension that exports your project’s file and folder str
 1. Open your project in VS Code.
 2. Press `Ctrl+Shift+P` and run:  
    **"Export the project file structure"**  
-   or click the 📄 icon in the bottom status bar.
-3. The file `estrutura_projeto.txt` will be generated in the project root.
+   or click the 📄 button `Export Structure` in the bottom status bar.
+3. The file `project_file_structure.txt` will be generated in the project root.
 
 ---
 

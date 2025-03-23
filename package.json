@@ -3,18 +3,40 @@
   "displayName": "File Structure Exporter",
   "description": "An extension to export the project file structure",
   "version": "0.1.0",
-  "engines": {
-    "vscode": "^1.98.0"
+  "author": {
+    "name": "Almatter LTDA.",
+    "url": "https://www.almatter.com.br/"
   },
+  "publisher": "almatter",
+  "keywords": [
+    "file structure",
+    "export",
+    "tree view",
+    "productivity",
+    "ai prompt",
+    "context generator"
+  ],
   "categories": [
     "Other"
   ],
+  "engines": {
+    "vscode": "^1.98.0"
+  },
   "activationEvents": [
     "onStartupFinished",
     "onCommand:file-structure-exporter.exportStructure"
   ],
   "main": "./dist/extension.js",
   "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/almatter-games/vs-code-file-structure-exporter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/almatter-games/vs-code-file-structure-exporter/issues"
+  },
+  "homepage": "https://github.com/almatter-games/vs-code-file-structure-exporter#readme",
+  "license": "MIT",
   "contributes": {
     "commands": [
       {
@@ -28,7 +50,7 @@
         "fileStructureExporter.autoGenerateOnChange": {
           "type": "boolean",
           "default": false,
-          "description": "Auto export the project file structure  in file structure change"
+          "description": "Auto export the project file structure on file or folder change"
         }
       }
     }
