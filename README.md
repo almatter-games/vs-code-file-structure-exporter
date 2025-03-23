@@ -4,7 +4,7 @@
 ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/almatter.file-structure-exporter)
 ![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/stars/almatter.file-structure-exporter)
 ![GitHub License](https://img.shields.io/github/license/almatter-games/vs-code-file-structure-exporter)
-[![Install from VS Code Marketplace](https://img.shields.io/badge/VSCODE-Install-blue?logo=visualstudiocode&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=almatter.file-structure-exporter)
+[![Install from VS Code Marketplace](https://img.shields.io/badge/VSCODE-Install-blue?logo=visualstudiocode)](https://marketplace.visualstudio.com/items?itemName=almatter.file-structure-exporter)
 
 A Visual Studio Code extension that exports your project’s file and folder structure to a `.txt` file. Useful for documentation, prompts for AI assistants, and general organization.
 
